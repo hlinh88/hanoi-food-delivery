@@ -1,0 +1,13 @@
+const [data, setData] = useState({});
+const getData = () => {
+getDoc(doc(db, "users", auth.currentUser.uid)).then((docSnap) => {
+  if (docSnap.exists()) {
+    setData(docSnap.data());
+  } else {
+    console.log("No such document!");
+  }
+});
+};
+useEffect(() => {
+getData();
+}, []);
