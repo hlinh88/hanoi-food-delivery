@@ -16,34 +16,26 @@ const SplashScreen = ({ navigation }) => {
   }
 
   setTimeout(() => {
-    navigation.replace("Onboarding");
+    navigation.replace("Home");
   }, 3600);
   return (
     <ImageBackground
-      source={require("../../../assets/images/melbourne-bg.jpg")}
+      source={{
+        uri: "https://c0.wallpaperflare.com/preview/59/322/367/ha-noi.jpg",
+      }}
       style={styles.backgroundImage}
     >
       <View style={styles.content}>
-        {/*<Image*/}
-        {/*  source={require("../../../assets/aus-flag.gif")}*/}
-        {/*  style={styles.icon}*/}
-        {/*/>*/}
         <Image
-          source={require("../../../assets/adaptive-icon.png")}
+          source={require("../../../assets/logo.png")}
           style={styles.icon}
         />
-        <Text style={styles.textTitle}>Melbourne {"\n"} Backpack</Text>
-        <Text style={styles.description}>A mini-Melbourne in your pocket!</Text>
+        <Image
+          source={require("../../../assets/loading.gif")}
+          style={styles.loading}
+        />
       </View>
       <View style={styles.holdText}>
-        {/*<Image*/}
-        {/*  source={require("../../../assets/Splash-1.png")}*/}
-        {/*  style={{*/}
-        {/*    width: widthPercentageToDP(85),*/}
-        {/*    height: 200,*/}
-        {/*    marginBottom: 30,*/}
-        {/*  }}*/}
-        {/*/>*/}
         <Text style={styles.versionText}>Version 1.0</Text>
       </View>
     </ImageBackground>

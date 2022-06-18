@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 import { Dimensions } from "react-native";
-import { BACKGROUND, WHITE } from "../../styles/colors";
+import { BACKGROUND, BLACK, WHITE } from "../../styles/colors";
 import { heightPercentageToDP } from "react-native-responsive-screen";
 
 let width = Dimensions.get("window").width; //full width
@@ -14,31 +14,22 @@ const styles = StyleSheet.create({
   content: {
     alignItems: "center",
     justifyContent: "center",
-
-    height: heightPercentageToDP(65),
+    height: heightPercentageToDP(90),
   },
   icon: {
-    width: 180,
-    height: 180,
+    width: 520,
+    height: 520,
     resizeMode: "contain",
   },
-  textTitle: {
-    color: WHITE,
-    fontSize: 45,
-    fontFamily: "PoppinsExtraBold",
-  },
-  description: {
-    color: WHITE,
-    fontSize: 15,
-    fontFamily: "PoppinsMedium",
-    marginTop: 15,
+  loading: {
+    width: 80,
+    height: 80,
   },
   holdText: {
     flex: 1,
     justifyContent: "flex-end",
     marginBottom: 50,
     alignItems: "center",
-    height: heightPercentageToDP(40),
   },
   versionText: {
     color: WHITE,
