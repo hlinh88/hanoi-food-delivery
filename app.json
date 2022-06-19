@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "melbourne-backpack",
-    "slug": "melbourne-backpack",
+    "name": "hanoi-food-delivery",
+    "slug": "hanoi-food-delivery",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

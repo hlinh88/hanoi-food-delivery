@@ -2,9 +2,8 @@ import { Text, View, ImageBackground, ScrollView } from "react-native";
 import styles from "./styles";
 import { TouchableOpacity } from "react-native";
 import { useFonts } from "expo-font";
-import TopBar from "../../components/topbar/TopBar";
 
-const HomeScreen = ({ navigation }) => {
+const TopBar = ({ navigation }) => {
   // handle font
   const [loaded, error] = useFonts({
     PoppinsSemiBold: require("../../../assets/fonts/Poppins-SemiBold.ttf"),
@@ -19,9 +18,9 @@ const HomeScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <TopBar />
+      <Text>Hello</Text>
     </View>
   );
 };
 
-export default HomeScreen;
+export default TopBar;
