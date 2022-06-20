@@ -6,9 +6,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: BACKGROUND,
-    overflow: "hidden",
-    alignItems: "center",
-    flexDirection: "column",
   },
 });
 

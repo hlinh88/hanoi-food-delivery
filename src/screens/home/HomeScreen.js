@@ -6,13 +6,7 @@ import TopBar from "../../components/topbar/TopBar";
 
 const HomeScreen = ({ navigation }) => {
   // handle font
-  const [loaded, error] = useFonts({
-    PoppinsSemiBold: require("../../../assets/fonts/Poppins-SemiBold.ttf"),
-    PoppinsRegular: require("../../../assets/fonts/Poppins-Regular.ttf"),
-    PoppinsMedium: require("../../../assets/fonts/Poppins-Medium.ttf"),
-    PoppinsBold: require("../../../assets/fonts/Poppins-Bold.ttf"),
-    PoppinsExtraBold: require("../../../assets/fonts/Poppins-ExtraBold.ttf"),
-  });
+  const [loaded, error] = useFonts({});
   if (!loaded) {
     return null;
   }

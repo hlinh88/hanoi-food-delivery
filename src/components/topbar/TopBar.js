@@ -1,25 +1,25 @@
-import { Text, View, ImageBackground, ScrollView } from "react-native";
+import {
+  Text,
+  View,
+  ImageBackground,
+  ScrollView,
+  SafeAreaView,
+} from "react-native";
 import styles from "./styles";
-import { TouchableOpacity } from "react-native";
+
 import { useFonts } from "expo-font";
 
 const TopBar = ({ navigation }) => {
   // handle font
-  const [loaded, error] = useFonts({
-    PoppinsSemiBold: require("../../../assets/fonts/Poppins-SemiBold.ttf"),
-    PoppinsRegular: require("../../../assets/fonts/Poppins-Regular.ttf"),
-    PoppinsMedium: require("../../../assets/fonts/Poppins-Medium.ttf"),
-    PoppinsBold: require("../../../assets/fonts/Poppins-Bold.ttf"),
-    PoppinsExtraBold: require("../../../assets/fonts/Poppins-ExtraBold.ttf"),
-  });
+  const [loaded, error] = useFonts({});
   if (!loaded) {
     return null;
   }
 
   return (
-    <View style={styles.container}>
-      <Text>Hello</Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <Text style={styles.text}>Hello</Text>
+    </SafeAreaView>
   );
 };
 
