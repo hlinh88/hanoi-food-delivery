@@ -10,7 +10,7 @@ export const RED = "#E61E2A";
 export const SELECTED_BUTTON = "#4838D1";
 export const TEXT_INPUT = "#1C1C4D";
 export const PLACEHOLDER = "#6A6A8B";
-export const TOPBAR_BACKGROUND = "#255360";
+export const TOPBAR = "#255360";
 
 /* WHITE, GREY, BLACK */
 export const WHITE = "#FFFFFF";

@@ -4,10 +4,13 @@ import {
   ImageBackground,
   ScrollView,
   SafeAreaView,
+  TouchableOpacity,
 } from "react-native";
 import styles from "./styles";
 
 import { useFonts } from "expo-font";
+import Ionicons from "@expo/vector-icons/Ionicons";
+import { TOPBAR } from "../../styles/colors";
 
 const TopBar = ({ navigation }) => {
   // handle font
@@ -18,7 +21,9 @@ const TopBar = ({ navigation }) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.text}>Hello</Text>
+      <TouchableOpacity>
+        <Ionicons name="ios-location-sharp" size={24} color={TOPBAR} />
+      </TouchableOpacity>
     </SafeAreaView>
   );
 };

@@ -15,9 +15,9 @@ const SplashScreen = ({ navigation }) => {
     return null;
   }
 
-  // setTimeout(() => {
-  //   navigation.replace("Home");
-  // }, 3600);
+  setTimeout(() => {
+    navigation.replace("Home");
+  }, 3600);
   return (
     <ImageBackground
       source={{

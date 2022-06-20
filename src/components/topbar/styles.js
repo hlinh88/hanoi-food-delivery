@@ -10,11 +10,11 @@ import { widthPercentageToDP } from "react-native-responsive-screen";
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: TOPBAR_BACKGROUND,
+    backgroundColor: WHITE,
     alignItems: "center",
     flexDirection: "row",
     justifyContent: "center",
-    height: widthPercentageToDP(25),
+    height: widthPercentageToDP(22),
   },
   text: {},
 });
