@@ -16,7 +16,10 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     height: widthPercentageToDP(22),
   },
-  text: {},
+  location: {
+    fontFamily: "TTNormsBold",
+    fontSize: 16,
+  },
 });
 
 export default styles;
