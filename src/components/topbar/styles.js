@@ -1,11 +1,5 @@
 import { StyleSheet } from "react-native";
-import {
-  WHITE,
-  BACKGROUND,
-  PURPLE_BLUE,
-  BLACK,
-  TOPBAR_BACKGROUND,
-} from "../../styles/colors";
+import { WHITE } from "../../styles/colors";
 import { widthPercentageToDP } from "react-native-responsive-screen";
 
 const styles = StyleSheet.create({
