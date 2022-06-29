@@ -1,18 +1,28 @@
 import { StyleSheet } from "react-native";
-import { WHITE } from "../../styles/colors";
+import { GREY, WHITE } from "../../styles/colors";
 import { widthPercentageToDP } from "react-native-responsive-screen";
 
 const styles = StyleSheet.create({
   container: {
     backgroundColor: WHITE,
     alignItems: "center",
-    flexDirection: "row",
     justifyContent: "center",
     height: widthPercentageToDP(22),
+    borderBottomColor: GREY,
+    borderBottomWidth: 1,
+  },
+  locationHolder: {
+    alignItems: "center",
+    flexDirection: "row",
+    justifyContent: "center",
   },
   location: {
     fontFamily: "TTNormsBold",
-    fontSize: 16,
+    fontSize: 17,
+  },
+  loading: {
+    width: 30,
+    height: 30,
   },
 });
 

@@ -4,7 +4,7 @@ import { useFonts } from "expo-font";
 import { widthPercentageToDP } from "react-native-responsive-screen";
 
 // use replace instead of navigate to avoid the back button on Android
-const SplashScreen = ({ navigation }) => {
+const Splash = ({ navigation }) => {
   const [loaded, error] = useFonts({
     PoppinsExtraBold: require("../../../assets/fonts/Poppins-ExtraBold.ttf"),
     PoppinsRegular: require("../../../assets/fonts/Poppins-Regular.ttf"),
@@ -42,4 +42,4 @@ const SplashScreen = ({ navigation }) => {
   );
 };
 
-export default SplashScreen;
+export default Splash;

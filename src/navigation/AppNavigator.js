@@ -1,6 +1,6 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import SplashScreen from "../screens/splash/SplashScreen";
-import HomeScreen from "../screens/home/HomeScreen";
+import Splash from "../screens/splash/Splash";
+import Home from "../screens/home/Home";
 
 const AppNavigator = () => {
   const Stack = createStackNavigator();
@@ -20,8 +20,8 @@ const AppNavigator = () => {
         cardStyleInterpolator: forFade,
       }}
     >
-      <Stack.Screen name="Splash" component={SplashScreen} />
-      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Splash" component={Splash} />
+      <Stack.Screen name="Home" component={Home} />
     </Stack.Navigator>
   );
 };

@@ -4,7 +4,7 @@ import { TouchableOpacity } from "react-native";
 import { useFonts } from "expo-font";
 import TopBar from "../../components/topbar/TopBar";
 
-const HomeScreen = ({ navigation }) => {
+const Home = ({ navigation }) => {
   // handle font
   const [loaded, error] = useFonts({});
   if (!loaded) {
@@ -18,4 +18,4 @@ const HomeScreen = ({ navigation }) => {
   );
 };
 
-export default HomeScreen;
+export default Home;
