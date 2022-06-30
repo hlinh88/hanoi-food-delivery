@@ -9,13 +9,16 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     height: widthPercentageToDP(22),
   },
-  foodContainer: {
+  foodContainer: {},
+  foodItem: {
+    marginTop: 10,
+    marginHorizontal: 10,
     alignItems: "center",
     justifyContent: "center",
   },
   foodIcon: {
-    width: 35,
-    height: 35,
+    width: 40,
+    height: 40,
     marginVertical: 7,
   },
   foodTitle: {

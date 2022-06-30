@@ -20,14 +20,12 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCLZhG8wXVb8_B0qX4non3ZgP4-VVqGvGw",
-  authDomain: "melbourne-backpack.firebaseapp.com",
-  databaseURL:
-    "https://melbourne-backpack-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "melbourne-backpack",
-  storageBucket: "melbourne-backpack.appspot.com",
-  messagingSenderId: "675237133664",
-  appId: "1:675237133664:web:32110119e2d1f78fb3b205",
+  apiKey: "AIzaSyC_1iZU9bhhqVuUgtgmsARSa5gOn_qsgBk",
+  authDomain: "hanoi-food-ba491.firebaseapp.com",
+  projectId: "hanoi-food-ba491",
+  storageBucket: "hanoi-food-ba491.appspot.com",
+  messagingSenderId: "252530316378",
+  appId: "1:252530316378:web:2f6a09cdaec538f6767463",
 };
 
 // Initialize Firebase
