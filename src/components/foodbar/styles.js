@@ -8,8 +8,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     height: widthPercentageToDP(22),
+    marginLeft: 10,
   },
-  foodContainer: {},
   foodItem: {
     marginTop: 10,
     marginHorizontal: 10,
@@ -17,8 +17,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   foodIcon: {
-    width: 40,
-    height: 40,
+    width: 45,
+    height: 45,
     marginVertical: 7,
   },
   foodTitle: {

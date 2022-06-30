@@ -1,9 +1,16 @@
-import { Text, View, ImageBackground, ScrollView } from "react-native";
+import {
+  Text,
+  View,
+  ImageBackground,
+  ScrollView,
+  KeyboardAvoidingView,
+} from "react-native";
 import styles from "./styles";
 import { TouchableOpacity } from "react-native";
 import { useFonts } from "expo-font";
 import TopBar from "../../components/topbar/TopBar";
 import FoodBar from "../../components/foodbar/FoodBar";
+import SearchBar from "../../components/searchbar/SearchBar";
 
 const Home = ({ navigation }) => {
   // handle font
@@ -13,10 +20,11 @@ const Home = ({ navigation }) => {
   }
 
   return (
-    <View style={styles.container}>
+    <KeyboardAvoidingView style={styles.container}>
       <TopBar />
+      <SearchBar />
       <FoodBar />
-    </View>
+    </KeyboardAvoidingView>
   );
 };
 

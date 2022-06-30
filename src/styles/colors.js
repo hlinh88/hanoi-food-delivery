@@ -15,5 +15,5 @@ export const TOP_BAR = "#255360";
 /* WHITE, GREY, BLACK */
 export const WHITE = "#FFFFFF";
 export const BLACK = "#000000";
-export const GREY = "#9A9898";
+export const GREY = "#E9EAEF";
 export const LIGHTER_GREY = "#E5E3E0";
