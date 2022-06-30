@@ -3,6 +3,7 @@ import styles from "./styles";
 import { TouchableOpacity } from "react-native";
 import { useFonts } from "expo-font";
 import TopBar from "../../components/topbar/TopBar";
+import FoodBar from "../../components/foodbar/FoodBar";
 
 const Home = ({ navigation }) => {
   // handle font
@@ -14,6 +15,7 @@ const Home = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <TopBar />
+      <FoodBar />
     </View>
   );
 };
