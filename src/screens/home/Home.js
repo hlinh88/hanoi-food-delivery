@@ -11,6 +11,7 @@ import { useFonts } from "expo-font";
 import TopBar from "../../components/topbar/TopBar";
 import FoodBar from "../../components/foodbar/FoodBar";
 import SearchBar from "../../components/searchbar/SearchBar";
+import FilterOption from "../../components/filter-option/FilterOption";
 
 const Home = ({ navigation }) => {
   // handle font
@@ -24,6 +25,7 @@ const Home = ({ navigation }) => {
       <TopBar />
       <SearchBar />
       <FoodBar />
+      <FilterOption />
     </KeyboardAvoidingView>
   );
 };

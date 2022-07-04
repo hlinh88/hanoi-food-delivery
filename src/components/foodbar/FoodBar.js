@@ -51,7 +51,7 @@ const FoodBar = ({ navigation }) => {
 };
 
 const FoodItem = ({ item }) => (
-  <View style={styles.foodContainer}>
+  <View>
     <TouchableOpacity style={styles.foodItem}>
       <Image source={item.icon} style={styles.foodIcon} />
       <Text style={styles.foodTitle}>{item.title}</Text>
