@@ -21,12 +21,12 @@ const Home = ({ navigation }) => {
   }
 
   return (
-    <KeyboardAvoidingView style={styles.container}>
+    <ScrollView style={styles.container}>
       <TopBar />
       <SearchBar />
       <FoodBar />
       <FilterOption />
-    </KeyboardAvoidingView>
+    </ScrollView>
   );
 };
 

@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { GREY, WHITE } from "../../styles/colors";
+import { BLACK, GREY, WHITE } from "../../styles/colors";
 import { widthPercentageToDP } from "react-native-responsive-screen";
 
 const styles = StyleSheet.create({
@@ -20,6 +20,8 @@ const styles = StyleSheet.create({
     paddingVertical: 7,
     paddingHorizontal: 15,
     marginHorizontal: 5,
+    borderWidth: 0.5,
+    borderColor: BLACK,
   },
   buttonText: {
     fontFamily: "TTNormsMedium",

@@ -15,7 +15,7 @@ import {
   MaterialCommunityIcons,
   MaterialIcons,
 } from "@expo/vector-icons";
-import { BLACK } from "../../styles/colors";
+import { BLACK, GREY } from "../../styles/colors";
 
 const FilterOption = ({ navigation }) => {
   // handle font
